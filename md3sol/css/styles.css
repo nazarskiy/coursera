@@ -17,23 +17,17 @@ h1 {
 .navbar-header a:link {
   text-decoration: none;
 }
-#collapsible-menu {
-    border: 2px black solid;
-}
 h2 {
-  text-align: center;
   margin: 15px;
   font-weight: 600;
 }
 h3 {
-  text-align: center;
   font-size: 22px;
   font-weight: 500;
 }
 #nav-list a {
   font-size: 18px;
   color: black;
-  text-align: center;
 }
 li {
   border-top: 2px black solid;
@@ -50,6 +44,11 @@ li {
 }
 p {
   margin: 0;
+}
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 @media (min-width: 768px) {
 
